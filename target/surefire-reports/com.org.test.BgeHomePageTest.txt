@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.org.test.BgeHomePageTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 75.176 sec <<< FAILURE!
+testLogin(com.org.test.BgeHomePageTest)  Time elapsed: 30.038 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.org.pages.BgeHomePage.setUserName(BgeHomePage.java:22)
+	at com.org.test.BgeHomePageTest.testLogin(BgeHomePageTest.java:35)
+
